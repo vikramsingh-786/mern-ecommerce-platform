@@ -1,7 +1,7 @@
 import React from "react";
 import { useTheme } from "../../contexts/ThemeContext";
 import { motion } from "framer-motion";
-import heroImg from "../../assets/Herro.jpg";
+import heroImg from "../../assets/Hero.jpg";
 
 const textVariants = {
   hidden: { opacity: 0, y: 30 },
