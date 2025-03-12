@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+.bg-gray-200 {
+    background-color: #fffdf2c3;
+}
+
+.dark .bg-gray-200 {
+    background-color: oklch(0.21 0.034 264.665);
+}
+
+.text-gray-800 {
+    color: #171d28;
+}
+
+.dark .text-gray-800 {
+    color: #f7fafc;
+}
+
+.text-blue-600 {
+    color: #3182ce;
+}
+
+.dark .text-blue-600 {
+    color: #63b3ed;
+}
+
+.bg-yellow-400 {
+    background-color: #f6e05e;
+}
+
+.bg-yellow-400:hover {
+    background-color: #ecc94b;
+}
+
+.dark .bg-yellow-400 {
+    background-color: #e6b700;
+}
+
+.dark .bg-yellow-400:hover {
+    background-color: #c4a900;
+}
+
+@media (max-width: 650px) {
+    .shop-now-text {
+        display: none;
+    }
+}
+
+
+@keyframes blob {
+    0% { transform: translate(0px, 0px) scale(1); }
+    33% { transform: translate(30px, -50px) scale(1.1); }
+    66% { transform: translate(-20px, 20px) scale(0.9); }
+    100% { transform: translate(0px, 0px) scale(1); }
+  }
+  
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
