@@ -107,7 +107,7 @@ const CreateProduct = () => {
               </h2>
               <form
                 onSubmit={handleSubmit}
-                className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full"
+                className="grid grid-cols-2 sm:grid-cols-1 gap-6 w-full"
               >
                 <div>
                   <label className="text-sm font-medium mb-2 block">
