@@ -146,10 +146,6 @@ export const deleteOrder = async (req, res) => {
       return res.status(404).json({ message: "Order not found" });
     }
 
-    if (!req.user.isAdmin) {
-      return res.status(401).json({ message: "Not authorized" });
-    }
-
     await Order.deleteOne({ _id: req.params.id });
     res.json({ message: "Order deleted successfully" });
   } catch (error) {
