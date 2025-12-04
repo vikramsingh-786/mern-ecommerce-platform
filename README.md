@@ -2,7 +2,7 @@
 
 ## Description
 
-this is a lms project, that i have build while learning full stack development with my mentor. in this project i have build from scratch lots of feature like authentication, user management, course management, lecture management, lecture dashboard & admin dashboard and more...
+this is a ecommmerce project, that i have build while learning full stack development with my mentor. in this project i have build from scratch lots of feature like authentication, user management, course management, lecture management, lecture dashboard & admin dashboard and more...
 
 ![SHOPITO](https://res.cloudinary.com/dksmrp2im/image/upload/v1741868444/Screenshot_2025-03-13_173800_p9vdfx.png)
 
@@ -309,3 +309,4 @@ Follow these steps to set up the project on your local machine:
 ---
 
 _Made with ❤️ by [Vikram Singh](linkedin.com/in/vikram-singh-508b08250/)_
+
